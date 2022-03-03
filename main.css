@@ -18,3 +18,97 @@ body{
     font-family: 'lato', Arial, sans-serif;
     font-weight: 400;
 }
+.row{
+    width: 70%;
+    margin: 50px auto;
+}
+.App{
+    display: flex;
+    border-radius: 50px;
+}
+/* Left half section styling */
+.leftHalf{
+    background: #eee;
+    width: 70%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 30px;
+}
+.top_section{
+    margin: 0 0 20px 0;
+}
+.img_holder{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background: url("imgs/DSC_7468.jpg");
+    background-size: cover;
+    display: inline-block;
+    vertical-align:middle;
+}
+.name_holder{
+    display: inline-block;
+    vertical-align:middle;
+}
+
+/* right half section stylign */
+.rightHalf{
+    background: #082a4d;
+    width: 30%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 30px;
+    color: #fff;
+}
+/* Profile cards */
+.profile_cards h1{
+    font-size: 20px;
+    margin: 8px 0;
+}
+.profile_cards h2{
+    font-size: 15px;
+    margin: 8px 0;
+}
+.profile_cards h3{
+    font-size: 10px;
+    margin: 8px 0;
+    /* color: #eee; */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/* Details cards */
+.detailscard h1{
+    font-size: 20px;
+    margin: 8px 0;
+}
+h3{
+    font-size: 10px;
+    margin: 8px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.detailscard h3{
+    font-size: 10px;
+    margin: 8px 0;
+    color: #eee;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.detailscard p{
+    font-size: 12px;
+}
+.detailscard a{
+    color: #fff;
+}
+.detailscard_img{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* simple white bars */
+.white_bar{
+    display: block;
+    background: #fff;
+    padding: 3px;
+    margin: 5px 0;
+}
